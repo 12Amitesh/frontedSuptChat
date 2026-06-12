@@ -7,7 +7,7 @@ import Signup from "./pages/auth/signup.jsx";
 import Profile from "./pages/profile/profile.jsx";
 import { useAuthStore } from "./store/authstore.js";
 import './App.css';
-import Settings from "./pages/Settings.jsx";
+import Settings from "./pages/settings.jsx";
 import { Toaster } from "react-hot-toast";
 function App() {
   const { authUser, checkAuth, isChecking } = useAuthStore();
